@@ -33,7 +33,7 @@ Para criar um workspace com este pacote (droneboga), crie um diretório com uma 
 ```shell
 mkdir -p ~/catkin_ws/src
 ```
-Vá a pasta src, clone este repositório, vá a diretório src e compile o pacote
+Vá a pasta src, clone este repositório, volte ao diretório deste workspace e compile o pacote
 ```shell
 cd ~/catkin_ws/src
 git clone https://github.com/PEQUI-MEC/DRONEBOGA.git
@@ -56,7 +56,7 @@ Em outro terminal ative workspace criado colocando-o em suas variáveis de ambie
 ```shell
 source ~/catkin_ws/src/devel/setup.bash
 ```
-E execute este nó
+E execute este nó:
 ```shell
 rosrun droneboga droneboga_node
 ```
